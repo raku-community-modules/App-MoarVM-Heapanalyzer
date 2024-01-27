@@ -280,7 +280,7 @@ Jonathan Worthington
 
 Copyright 2016 - 2024 Jonathan Worthington
 
-Copyright 2024 Elizabeth Mattijsen
+Copyright 2024 Raku Community
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
