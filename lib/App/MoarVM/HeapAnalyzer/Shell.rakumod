@@ -229,3 +229,59 @@ sub whine ($msg) {
     note $msg;
     exit 1;
 }
+
+=begin pod
+
+=head1 NAME
+
+App::MoarVM::HeapAnalyzer - MoarVM heap snapshot analysis tool
+
+=head1 SYNOPSIS
+
+=begin code
+
+$ moar-ha file.snapshot
+
+=end code
+
+=head1 DESCRIPTION
+
+This is a command line application for analyzing MoarVM heap snapshots.
+First, obtain a heap snapshot file from something running on MoarVM. For
+example:
+
+=begin code
+
+$ raku --profile=heap something.raku
+
+=end code
+
+Then run this application on the heap snapshot file it produces (the
+filename will be at the end of the program output).
+
+=begin code
+
+$ moar-ha heap-snapshot-1473849090.9
+
+=end code
+
+Type C<help> inside the shell to learn about the set of supported
+commands.  You may also find
+L<these|https://6guts.wordpress.com/2016/03/27/happy-heapster/>
+L<two|https://6guts.wordpress.com/2016/04/15/heap-heap-hooray/>
+posts on the 6guts blog about using the heap analyzer to hunt leaks
+interesting also.
+
+=head1 AUTHOR
+
+Jonathan Worthington
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2016 - 2024 Jonathan Worthington
+
+Copyright 2024 Elizabeth Mattijsen
+
+This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+
+=end pod

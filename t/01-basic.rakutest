@@ -1,0 +1,5 @@
+use Test;
+use App::MoarVM::HeapAnalyzer::Shell;
+
+plan 1;
+pass "Module loaded ok";
