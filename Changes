@@ -1,4 +1,6 @@
 Revision history for App-MoarVM-HeapAnalyzer
 
 {{$NEXT}}
+
+0.2  2024-11-30T14:34:22+01:00
     - Initial version in the zef ecosystem
