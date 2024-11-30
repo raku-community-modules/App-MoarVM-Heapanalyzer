@@ -15,7 +15,7 @@
   },
   "resources": [
   ],
-  "source-url": "git://github.com/raku-community-modules/App-MoarVM-HeapAnalyzer.git",
+  "source-url": "https://github.com/raku-community-modules/App-MoarVM-HeapAnalyzer.git",
   "tags": [
   ],
   "test-depends": [

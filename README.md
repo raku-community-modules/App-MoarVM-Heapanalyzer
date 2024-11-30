@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/lizmat/App-Moarvm-Heapanalyzer/actions/workflows/test.yml/badge.svg)](https://github.com/lizmat/App-Moarvm-Heapanalyzer/actions)
+[![Actions Status](https://github.com/raku-community-modules/App-MoarVM-HeapAnalyzer/actions/workflows/linux.yml/badge.svg)](https://github.com/raku-community-modules/App-MoarVM-HeapAnalyzer/actions) [![Actions Status](https://github.com/raku-community-modules/App-MoarVM-HeapAnalyzer/actions/workflows/macos.yml/badge.svg)](https://github.com/raku-community-modules/App-MoarVM-HeapAnalyzer/actions) [![Actions Status](https://github.com/raku-community-modules/App-MoarVM-HeapAnalyzer/actions/workflows/windows.yml/badge.svg)](https://github.com/raku-community-modules/App-MoarVM-HeapAnalyzer/actions)
 
 NAME
 ====
